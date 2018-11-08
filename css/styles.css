@@ -125,9 +125,9 @@
     display: inline;
     margin-left: auto;
     margin-right: auto;
-    width:280px;
+    width:210px;
     height:auto;
-    padding-top: 5px;
+    padding-top: 8px;
   }
 
   /* story headline and topic */
@@ -227,8 +227,8 @@
   #liltry{
     display:none;
   }
-  /* changes based on phone screen sizes 400px and under */
-  @media only screen and (max-width: 400px) {
+  /* changes based on phone screen sizes 500px and under */
+  @media only screen and (max-width: 500px) {
 
     /* table that discusses private and public school vaccine exemptions. changed were made to make the chart responsive and easy to read on a phone. */
 
@@ -254,7 +254,7 @@
     }
 
     .stickyhead{
-      transform: translateY(20px);
+      transform: translateY(19px);
     }
 
     table,{
