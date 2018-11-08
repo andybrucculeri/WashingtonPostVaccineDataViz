@@ -1,7 +1,7 @@
 $(document).ready(function(){
   console.log ('DOM loaded');
 
-  //THE BASIC HIGHCHART PASTE JOB WITH HARD-CODED ARRAY
+  //Highcharts graph showing income vs BPE exemptions
   Highcharts.chart('money-chart', {
 
     title: {
@@ -34,7 +34,7 @@ $(document).ready(function(){
     },
 
     series: [{
-      name: '% Personal Belief Exemptions',
+      name: 'Percent Increase in PBEs',
       data: [.155, .176, .2, .228, .259]
     }],
 
@@ -55,12 +55,12 @@ $(document).ready(function(){
 
   }); //close highchart
 
-  //Initialize variables
+  // variables for ajax call to table  on private and public school vaccine exemptions
   var url = './js/kids.json';
   var kids = [];
   var html = '';
 
-  //Load the JSON data
+  // ajax call to table
   $.ajax({
     type:'GET',
     dataType:'json',
@@ -78,19 +78,15 @@ $(document).ready(function(){
         html += '<tr>';
         html += '<td class="sticky">' + kids.Category  + '</td><td>' + kids["All 2016-17"] + '</td><td>' + kids["Public 2016-17"] + '</td><td>' + kids["Private 2016-17"] + '</td><td>' + kids["All 2015-2016"] + '</td><td>' + kids["Public 2015-2016"] + '</td><td>' + kids["Private 2015-2016"] + '</td>';
         html += '</tr>';
-        /*  html += '<div class="kids-name">' + kids.Category + ':' + '</div>'
-        html += '<div class="bar" >' + kids["All 2016-17"] + '</div>'; */
       });
       html +=   '</div>';
       html += '</div>';
       html += '</table>';
       $('#kids').append(html);
-
-
     } // close kids function
   });//close AJAX call
 
-  //  function buildChart() {
+  // highchart that shows white population vs PBEs
 
   Highcharts.chart('white-chart', {
 
@@ -124,7 +120,7 @@ $(document).ready(function(){
     },
 
     series: [{
-      name: '% Personal Belief Exemptions',
+      name: 'Percent Increase in PBEs',
       data: [.283, .357, .451, .569, .719, .908]
     }],
 
@@ -145,9 +141,10 @@ $(document).ready(function(){
 
   }); //close highchart
 
+  //variables to Tauchart scatterplot that shows percent white vs percent vaccinated in the united states
   var vaxurl = './js/usvaxx.json';
   var usvaxx = [];
-
+  //ajax call to make Tauchart scatterplot
   $.ajax({
     type:'GET',
     url: vaxurl,
@@ -155,8 +152,7 @@ $(document).ready(function(){
     async: true,
     dataType:'json',
     success:function(usvaxx){
-      console.log('did it');
-
+      console.log('load scatterplot');
       var chart = new Taucharts.Chart({
         guide: {
           x: {
@@ -191,6 +187,4 @@ $(document).ready(function(){
           window.dispatchEvent(new Event('resize'));
         } //close success
       }); //close ajax
-
-
     }); // close document

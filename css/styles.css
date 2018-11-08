@@ -1,34 +1,10 @@
-#results{
-  width:100%;
-  height: 520px;
-}
-
-#results > svg{
-  display:block;
-}
-div.tau-chart__layout{
-  overflow: hidden;
-  height: 520px;
-}
-
-.tau-chart__legend{
-  display: inline-flex;
-
-}
-
-
-svg.tau-chart__legend__gradient {
-  width: 150px;
-  display: block;
-}
-
-
-
+/* Changes based on 850px and under screen size (ipad) */
 @media only screen and (max-width: 850px) {
+
   #heading{
     height: 70px!important;
   }
-
+  /* mock nav bar */
   #title{
     display: block;
     margin-left: auto;
@@ -50,6 +26,8 @@ svg.tau-chart__legend__gradient {
     display: none;
   }
 
+  /* sidebar */
+
   #side{
     display:none;
   }
@@ -68,6 +46,9 @@ svg.tau-chart__legend__gradient {
     padding-left: 1%;
   }
 
+
+  /* comments section */
+
   #comment{
     display:none!important;
   }
@@ -82,19 +63,37 @@ svg.tau-chart__legend__gradient {
     padding-bottom: 15px;
   }
 
-  } /* end of media screen */
+  /* call to action sign up */
+  #try{
+    display:none!important;
+  }
 
-  #title{
-    display: inline;
+  #liltry{
+    display: block!important;
     margin-left: auto;
     margin-right: auto;
     width:280px;
     height:auto;
-    padding-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
-  #darkness{
+  } /* end of media screen */
 
+  /* mock nav bar */
+
+  #heading{
+    height: 80px;
+    background: black;
+    margin-top:0px;
+    position: relative;
+    width:100%;
+    color:white;
+    font-family: Times New Roman;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 
   #search{
@@ -122,48 +121,83 @@ svg.tau-chart__legend__gradient {
     display:none;
   }
 
+  #title{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width:280px;
+    height:auto;
+    padding-top: 5px;
+  }
+
+  /* story headline and topic */
+
+  .headline{
+    font-family: georgia;
+    font-size: 45px;
+    border-bottom: 1px solid Gainsboro;
+    margin-bottom: 15px;
+    line-height: 50px;
+    padding-bottom: 8px;
+  }
+
   #topic{
     font: 12px;
-    color:blue;
+    color:#004080;
     padding-top: 10px;
     font-weight: bold;
   }
 
-  .headline{
-    font-family: Times New Roman;
-    font-size: 30px;
-    border-bottom: 1px solid grey;
-    margin-bottom: 15px;
-  }
+  /* author and date */
 
   #author{
     font: 12px;
     color: grey;
-    font-weight: lighter;
     margin-bottom: 10px;
   }
 
-  .story{
-    font-family: helvetica;
+  #bluename{
+    color: #004080;
+    font-weight: bold;
+  }
+  /* bootstrap container style */
+
+  .container{
+    padding-right: 10%!important;
+    padding-left: 10%!important;
   }
 
-  #heading{
-    height: 80px;
-    background: black;
-    margin-top:0px;
-    position: relative;
-    width:100%;
-    color:white;
-    font-family: Times New Roman;
-    font-style: italic;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  /* links styling */
+  a {
+    text-decoration: none;
   }
+  a:link {
+    color: #004080;
+    border-bottom: 1px solid #004080;
+  }
+  a:visited {
+    color: #004080;
+    border-bottom: 1px solid Gainsboro;
+  }
+  a:hover {
+    color: #004080;
+    border-bottom: 1px solid Gainsboro;
+    text-decoration: none!important;
+  }
+
+  /* main body copy */
+
+  .story{
+    font-family: georgia;
+  }
+
+  /* chart on income vs PBE percentage */
 
   #money-chart{
     margin-top: 50px;
   }
+
+  /* comment section */
 
   #comment{
     display: block;
@@ -178,8 +212,25 @@ svg.tau-chart__legend__gradient {
   #lilcomment{
     display:none;
   }
+  /* sign up call to action */
 
+  #try{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:700px;
+    height:auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #liltry{
+    display:none;
+  }
+  /* changes based on phone screen sizes 400px and under */
   @media only screen and (max-width: 400px) {
+
+    /* table that discusses private and public school vaccine exemptions. changed were made to make the chart responsive and easy to read on a phone. */
 
     #kids{
       display: block;
@@ -193,7 +244,6 @@ svg.tau-chart__legend__gradient {
     div.margin{
       margin-left:5em!important;
     }
-
 
     .sticky{
       position: absolute;
@@ -210,8 +260,9 @@ svg.tau-chart__legend__gradient {
     table,{
       border: 1px solid black;
     }
+
     th{
-      border-bottom: 2px solid purple ;
+      border-bottom: 2px solid #004080;
     }
 
     td {
@@ -239,23 +290,22 @@ svg.tau-chart__legend__gradient {
 
     } /* end of media screen */
 
+    /* table that discusses private and public school vaccine exemptions. */
+
     #kids{
       display: block;
       margin-left: auto;
       margin-right: auto;
       max-width: 900px;
-
     }
 
     table,{
       border: 1px solid black;
     }
     th{
-      border-bottom: 2px solid purple;
+      border-bottom: 2px solid #004080;
       text-align: center;
     }
-
-
 
     th, td {
       padding:2%;
@@ -277,4 +327,143 @@ svg.tau-chart__legend__gradient {
     .kids-list{
       display: grid;
       margin-bottom: 6%;
+    }
+
+    /* notes on the table on private and public school vaccine exemptions */
+    #tablenote{
+      font-size: 13px;
+      color: #696969;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-bottom: 0px;
+    }
+
+    /* scatterplot on white population vs vaccine rates */
+    #results{
+      width:100%;
+      height: 520px;
+    }
+
+    #results > svg{
+      display:block;
+    }
+    div.tau-chart__layout{
+      overflow: hidden;
+      height: 520px;
+    }
+
+    .tau-chart__legend{
+      display: inline-flex;
+
+    }
+
+    svg.tau-chart__legend__gradient {
+      width: 150px;
+      display: block;
+    }
+
+    /* about the author section */
+
+    #me{
+      border-top: 1px solid Gainsboro;
+      border-bottom: 1px solid Gainsboro;
+    }
+
+    #mepic{
+      padding-top: 10px;
+      float:left;
+      width: 75px;
+      height: auto;
+      padding-right: 5px;
+    }
+
+    #name{
+      font-size: 14px;
+      color: #004080;
+      padding-top: 10px;
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+
+    #about{
+      color:grey;
+      font-size: 12px;
+    }
+
+    /* begin reccomended story section */
+
+    #blackbar{
+      height: 4px;
+      background: black;
+      margin-top:0px;
+      position: relative;
+      width:40px;
+    }
+
+    #reccomends{
+      font-size: 15px;
+      color:black;
+      padding-top: 10px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .topics{
+      font-size: 14px;
+      color:black;
+      padding-top: 10px;
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+
+    .teaser{
+      font-size: 24px;
+      margin-bottom: 3px;
+      font-family: georgia;
+    }
+
+    .teaser:hover{
+      color:#004080;
+    }
+
+    .cutline{
+      font-size: 14px;
+      margin-bottom: 3px;
+      color:grey;
+      font-family: helvetica;
+    }
+
+    .timing{
+      font-size: 14px;
+      margin-bottom: 3px;
+      color:grey;
+      font-weight: lighter;
+      font-family: helvetica;
+    }
+
+    .recs{
+      border-bottom: 1px solid Gainsboro;
+      padding-bottom: 20px;
+      margin-bottom: 10px;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+
+    .doctor{
+      width: 200px;
+      height: auto;
+      padding-left: 1px;
+      margin-top: 20px;
+    }
+
+    /* infinity scroll icon */
+    #infinite{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:60px;
+      height:auto;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
