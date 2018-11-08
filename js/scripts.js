@@ -5,7 +5,7 @@ $(document).ready(function(){
   Highcharts.chart('money-chart', {
 
     title: {
-      text: 'Median Household Income vs. % Personal Belief Expemptions '
+      text: 'Median Household Income vs. Percent Increase in Personal Belief Expemptions '
     },
 
     subtitle: {
@@ -14,7 +14,7 @@ $(document).ready(function(){
 
     yAxis: {
       title: {
-        text: '2013 PBE Percentage'
+        text: 'PBE Percentage Increase'
       }
     },
     xAxis: {
@@ -95,7 +95,7 @@ $(document).ready(function(){
   Highcharts.chart('white-chart', {
 
     title: {
-      text: 'Percentage Increase of White Population vs. Personal Belief Expemptions Percent Increase'
+      text: 'Percentage Increase of White Population vs. Percent Increase in Personal Belief Expemptions'
     },
 
     subtitle: {
@@ -159,36 +159,38 @@ $(document).ready(function(){
 
       var chart = new Taucharts.Chart({
         guide: {
-          x: {label:'Percent white'},  // custom label for X axis
-          y: {label:'Percent vax',
-          min: 80,
-          max: 100,
-          nice: false },    // custom label for Y axis
-          padding: {b:40,l:40,t:10,r:10},   // chart paddings
-          size: {
-            minSize: 1,
-            maxSize: 50
-          }
-        },
-        data: usvaxx,
-        type: 'scatterplot',
-        x: 'PercentWhite',
-        y: 'PercentVax',
-        color: 'PercentUrban',
-        size: 'PercentPoverty',
-        plugins: [
-          Taucharts.api.plugins.get('tooltip')({
-            fields:['Location', 'PercentWhite', 'PercentVax', 'PercentPoverty', 'PercentUrban']
-          }),
-          Taucharts.api.plugins.get('legend')({
-          position: 'bottom',
-          }),
-        ]
-      }); // close tauchart
-      chart.renderTo('#results');
+          x: {
+            label:'Percent White Population'},  // custom label for X axis
+            y: {
+              label:'Percent Vaccinated with 1 or more MMR at 35 months',
+              min: 80,
+              max: 100,
+              nice: false },    // custom label for Y axis
+              padding: {b:40,l:40,t:10,r:10},   // chart paddings
+              size: {
+                minSize: 1,
+                maxSize: 50
+              }
+            },
+            data: usvaxx,
+            type: 'scatterplot',
+            x: 'PercentWhite',
+            y: 'PercentVax',
+            color: 'PercentUrban',
+            size: 'PercentPoverty',
+            plugins: [
+              Taucharts.api.plugins.get('tooltip')({
+                fields:['Location', 'PercentWhite', 'PercentVax', 'PercentPoverty', 'PercentUrban']
+              }),
+              Taucharts.api.plugins.get('legend')({
+                position: 'bottom',
+              }),
+            ]
+          }); // close tauchart
+          chart.renderTo('#results');
+          window.dispatchEvent(new Event('resize'));
+        } //close success
+      }); //close ajax
 
-    } //close success
-  }); //close ajax
 
-
-}); // close document
+    }); // close document
