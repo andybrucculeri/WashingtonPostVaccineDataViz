@@ -1,0 +1,176 @@
+#results{
+  width:100%;
+  height: 520px;
+}
+
+#results > svg{
+  display:block;
+}
+div.tau-chart__layout{
+/*  overflow: visible!important;*/
+  height: 520px;
+}
+
+.tau-chart__legend{
+  display: inline-flex;
+
+}
+
+
+svg.tau-chart__legend__gradient {
+width: 150px;
+display: block;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+} /* end of media screen */
+
+#title{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width:280px;
+height:auto;
+padding-top: 5px;
+}
+
+#search{
+  float:left;
+  padding-top: 10px;
+}
+
+#sign{
+  float:right;
+}
+
+.headline{
+font-family: Times New Roman;
+font-size: 30px;
+
+}
+
+.story{
+font-family: helvetica;
+}
+
+#heading{
+  height: 80px;
+  background: black;
+  margin-top:0px;
+  position: relative;
+  width:100%;
+  color:white;
+  font-family: Times New Roman;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#money-chart{
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+
+  #kids{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  margin-left:5em;
+
+  }
+
+  div.margin{
+    margin-left:5em!important;
+  }
+
+
+  .sticky{
+    position: absolute;
+    width: 90px;
+    margin-bottom: 5px;
+    background-color: white;
+    left:0;
+  }
+
+  .stickyhead{
+        transform: translateY(20px);
+  }
+
+  table,{
+      border: 1px solid black;
+  }
+   th{
+       border-bottom: 2px solid purple ;
+   }
+
+ td {
+    padding: 10px!important;
+    height: 90px;
+  }
+
+  table {
+    margin-bottom: 5%;
+  }
+
+  tr{
+     border-bottom: 1px solid #D3D3D3;
+     font-size: 12px;
+  }
+
+  tr:not(:first-child):hover{
+      background: #DCDCDC;
+  }
+
+  .kids-list{
+    display: grid;
+    margin-bottom: 15% ;
+  }
+
+} /* end of media screen */
+
+#kids{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 900px;
+
+}
+
+table,{
+    border: 1px solid black;
+}
+ th{
+     border-bottom: 2px solid purple;
+     text-align: center;
+ }
+
+
+
+th, td {
+  padding:2%;
+}
+
+table {
+  margin-bottom: 5%;
+}
+
+tr{
+   border-bottom: 1px solid #D3D3D3;
+   color: black;
+}
+
+tr:not(:first-child):hover{
+    background: #DCDCDC;
+}
+
+.kids-list{
+  display: grid;
+  margin-bottom: 6%;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "whitePopulation": "5% - 20%",
+    "percentPBE": 0.283
+  },
+  {
+    "whitePopulation": "20% - 35%",
+    "percentPBE": 0.357
+  },
+  {
+    "whitePopulation": "35% - 50%",
+    "percentPBE": 0.451
+  },
+  {
+    "whitePopulation": "50% - 65%",
+    "percentPBE": 0.569
+  },
+  {
+    "whitePopulation": "65% - 80%",
+    "percentPBE": 0.719
+  },
+  {
+    "whitePopulation": "80% - 95%",
+    "percentPBE": 0.908
+  }
+]

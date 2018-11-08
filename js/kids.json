@@ -1,0 +1,74 @@
+[
+  {
+    "Category": "Number of Schools Reporting Students",
+    "All 2016-17": "7,820",
+    "Public 2016-17": "5,967",
+    "Private 2016-17": "1,853",
+    "All 2015-2016": "7,873",
+    "Public 2015-2016": "5,971",
+    "Private 2015-2016": "1,902"
+  },
+  {
+    "Category": "Number of Kindergarten Students",
+    "All 2016-17": "562,924",
+    "Public 2016-17": "520,626",
+    "Private 2016-17": "42,298",
+    "All 2015-2016": "551,123",
+    "Public 2015-2016": "508,458",
+    "Private 2015-2016": "42,665"
+  },
+  {
+    "Category": "All Required Immunizations",
+    "All 2016-17": "95.60%",
+    "Public 2016-17": "95.90%",
+    "Private 2016-17": "91.60%",
+    "All 2015-2016": "92.80%",
+    "Public 2015-2016": "93.20%",
+    "Private 2015-2016": "88.20%"
+  },
+  {
+    "Category": "Conditional Entrants",
+    "All 2016-17": "1.90%",
+    "Public 2016-17": "1.80%",
+    "Private 2016-17": "3.50%",
+    "All 2015-2016": "4.40%",
+    "Public 2015-2016": "4.30%",
+    "Private 2015-2016": "6.40%"
+  },
+  {
+    "Category": "Permanent Medical Exemptions",
+    "All 2016-17": "0.50%",
+    "Public 2016-17": "0.40%",
+    "Private 2016-17": "1.40%",
+    "All 2015-2016": "0.20%",
+    "Public 2015-2016": "0.20%",
+    "Private 2015-2016": "0.30%"
+  },
+  {
+    "Category": "Personal Belief Exemptions",
+    "All 2016-17": "0.60%",
+    "Public 2016-17": "0.50%",
+    "Private 2016-17": "1.40%",
+    "All 2015-2016": "2.40%",
+    "Public 2015-2016": "2.20%",
+    "Private 2015-2016": "4.90%"
+  },
+  {
+    "Category": "Others Lacking Immunizations",
+    "All 2016-17": "0.50%",
+    "Public 2016-17": "0.50%",
+    "Private 2016-17": "0.40%",
+    "All 2015-2016": "none",
+    "Public 2015-2016": "none",
+    "Private 2015-2016": "none"
+  },
+  {
+    "Category": "Overdue Immunization",
+    "All 2016-17": "1.00%",
+    "Public 2016-17": "1.00%",
+    "Private 2016-17": "1.70%",
+    "All 2015-2016": "0.20%",
+    "Public 2015-2016": "0.20%",
+    "Private 2015-2016": "0.10%"
+  }
+]

@@ -1,0 +1,450 @@
+[
+  {
+    "Location": "Alabama",
+    "PercentWhite": 45,
+    "PercentVax": 92.3,
+    "PercentPoverty": 39.2,
+    "PercentUrban": 44.6
+  },
+  {
+    "Location": "Alaska",
+    "PercentWhite": 51.1,
+    "PercentVax": 89.3,
+    "PercentPoverty": 16.4,
+    "PercentUrban": 56
+  },
+  {
+    "Location": "Arizona",
+    "PercentWhite": 38.4,
+    "PercentVax": 91.7,
+    "PercentPoverty": 35.7,
+    "PercentUrban": 57.8
+  },
+  {
+    "Location": "Arkansas",
+    "PercentWhite": 52.7,
+    "PercentVax": 92.6,
+    "PercentPoverty": 38.9,
+    "PercentUrban": 39
+  },
+  {
+    "Location": "California",
+    "PercentWhite": 25.8,
+    "PercentVax": 92.9,
+    "PercentPoverty": 32.2,
+    "PercentUrban": 49.8
+  },
+  {
+    "Location": "Colorado",
+    "PercentWhite": 58.6,
+    "PercentVax": 87.2,
+    "PercentPoverty": 18.1,
+    "PercentUrban": 63.7
+  },
+  {
+    "Location": "Connecticut",
+    "PercentWhite": 47.5,
+    "PercentVax": 94.6,
+    "PercentPoverty": 23.7,
+    "PercentUrban": 38.8
+  },
+  {
+    "Location": "Delaware",
+    "PercentWhite": 44.8,
+    "PercentVax": 92.9,
+    "PercentPoverty": 26.1,
+    "PercentUrban": 33.8
+  },
+  {
+    "Location": "District of Columbia",
+    "PercentWhite": 27.2,
+    "PercentVax": 94.1,
+    "PercentPoverty": 31.3,
+    "PercentUrban": 100
+  },
+  {
+    "Location": "Florida",
+    "PercentWhite": 36,
+    "PercentVax": 91.9,
+    "PercentPoverty": 31.8,
+    "PercentUrban": 59.9
+  },
+  {
+    "Location": "Georgia",
+    "PercentWhite": 40.6,
+    "PercentVax": 90.7,
+    "PercentPoverty": 33.7,
+    "PercentUrban": 37.1
+  },
+  {
+    "Location": "Hawaii",
+    "PercentWhite": 19.9,
+    "PercentVax": 90.5,
+    "PercentPoverty": 18.9,
+    "PercentUrban": 29.3
+  },
+  {
+    "Location": "Idaho",
+    "PercentWhite": 73.2,
+    "PercentVax": 92.2,
+    "PercentPoverty": 22.4,
+    "PercentUrban": 36.2
+  },
+  {
+    "Location": "Illinois",
+    "PercentWhite": 49.3,
+    "PercentVax": 91.9,
+    "PercentPoverty": 28.1,
+    "PercentUrban": 38.3
+  },
+  {
+    "Location": "IL-City of Chicago",
+    "PercentWhite": 26.6,
+    "PercentVax": 94,
+    "PercentPoverty": 38.3,
+    "PercentUrban": 100
+  },
+  {
+    "Location": "IL-Rest of State",
+    "PercentWhite": 56.9,
+    "PercentVax": 91.2,
+    "PercentPoverty": 24.7,
+    "PercentUrban": 17.4
+  },
+  {
+    "Location": "Indiana",
+    "PercentWhite": 69.2,
+    "PercentVax": 87,
+    "PercentPoverty": 28.5,
+    "PercentUrban": 51.4
+  },
+  {
+    "Location": "Iowa",
+    "PercentWhite": 74.3,
+    "PercentVax": 91.5,
+    "PercentPoverty": 19.9,
+    "PercentUrban": 28.8
+  },
+  {
+    "Location": "Kansas",
+    "PercentWhite": 67.8,
+    "PercentVax": 89.8,
+    "PercentPoverty": 22.8,
+    "PercentUrban": 32.7
+  },
+  {
+    "Location": "Kentucky",
+    "PercentWhite": 76.7,
+    "PercentVax": 92.7,
+    "PercentPoverty": 30.7,
+    "PercentUrban": 34.6
+  },
+  {
+    "Location": "Louisiana",
+    "PercentWhite": 47.2,
+    "PercentVax": 91.3,
+    "PercentPoverty": 42.2,
+    "PercentUrban": 40.5
+  },
+  {
+    "Location": "Maine",
+    "PercentWhite": 82.3,
+    "PercentVax": 93.7,
+    "PercentPoverty": 26,
+    "PercentUrban": 22
+  },
+  {
+    "Location": "Maryland",
+    "PercentWhite": 39.5,
+    "PercentVax": 92.4,
+    "PercentPoverty": 22.2,
+    "PercentUrban": 33.6
+  },
+  {
+    "Location": "Massachusetts",
+    "PercentWhite": 55.7,
+    "PercentVax": 98.3,
+    "PercentPoverty": 19.1,
+    "PercentUrban": 28.9
+  },
+  {
+    "Location": "Michigan",
+    "PercentWhite": 62.3,
+    "PercentVax": 92.2,
+    "PercentPoverty": 31.9,
+    "PercentUrban": 40.9
+  },
+  {
+    "Location": "Minnesota",
+    "PercentWhite": 61.2,
+    "PercentVax": 94.3,
+    "PercentPoverty": 19.2,
+    "PercentUrban": 41.9
+  },
+  {
+    "Location": "Mississippi",
+    "PercentWhite": 45.7,
+    "PercentVax": 91.8,
+    "PercentPoverty": 37.5,
+    "PercentUrban": 12.6
+  },
+  {
+    "Location": "Missouri",
+    "PercentWhite": 67.8,
+    "PercentVax": 85.8,
+    "PercentPoverty": 22.2,
+    "PercentUrban": 43.1
+  },
+  {
+    "Location": "Montana",
+    "PercentWhite": 74.7,
+    "PercentVax": 92.3,
+    "PercentPoverty": 22.9,
+    "PercentUrban": 32.1
+  },
+  {
+    "Location": "Nebraska",
+    "PercentWhite": 66.9,
+    "PercentVax": 93.7,
+    "PercentPoverty": 18.4,
+    "PercentUrban": 57.3
+  },
+  {
+    "Location": "Nevada",
+    "PercentWhite": 35.6,
+    "PercentVax": 92.4,
+    "PercentPoverty": 32.1,
+    "PercentUrban": 72.8
+  },
+  {
+    "Location": "New Hampshire",
+    "PercentWhite": 81.7,
+    "PercentVax": 94.1,
+    "PercentPoverty": 13.2,
+    "PercentUrban": 19.1
+  },
+  {
+    "Location": "New Jersey",
+    "PercentWhite": 39.8,
+    "PercentVax": 89,
+    "PercentPoverty": 22.8,
+    "PercentUrban": 22
+  },
+  {
+    "Location": "New Mexico",
+    "PercentWhite": 27.3,
+    "PercentVax": 89.3,
+    "PercentPoverty": 38.5,
+    "PercentUrban": 47.8
+  },
+  {
+    "Location": "New York",
+    "PercentWhite": 44.8,
+    "PercentVax": 92.5,
+    "PercentPoverty": 27.7,
+    "PercentUrban": 63
+  },
+  {
+    "Location": "NY-City of New York",
+    "PercentWhite": 33.1,
+    "PercentVax": 91.9,
+    "PercentPoverty": 30.7,
+    "PercentUrban": 100
+  },
+  {
+    "Location": "NY-Rest of State",
+    "PercentWhite": 56.5,
+    "PercentVax": 93.1,
+    "PercentPoverty": 24.7,
+    "PercentUrban": 25.9
+  },
+  {
+    "Location": "North Carolina",
+    "PercentWhite": 53.7,
+    "PercentVax": 92.2,
+    "PercentPoverty": 27.3,
+    "PercentUrban": 45.1
+  },
+  {
+    "Location": "North Dakota",
+    "PercentWhite": 70.1,
+    "PercentVax": 95.7,
+    "PercentPoverty": 21.2,
+    "PercentUrban": 38.9
+  },
+  {
+    "Location": "Ohio",
+    "PercentWhite": 64.5,
+    "PercentVax": 88.3,
+    "PercentPoverty": 30.8,
+    "PercentUrban": 39.2
+  },
+  {
+    "Location": "Oklahoma",
+    "PercentWhite": 46.4,
+    "PercentVax": 91.7,
+    "PercentPoverty": 31.3,
+    "PercentUrban": 41.3
+  },
+  {
+    "Location": "Oregon",
+    "PercentWhite": 60.7,
+    "PercentVax": 90.3,
+    "PercentPoverty": 29.5,
+    "PercentUrban": 54.3
+  },
+  {
+    "Location": "Pennsylvania",
+    "PercentWhite": 61.5,
+    "PercentVax": 91.7,
+    "PercentPoverty": 23.7,
+    "PercentUrban": 39
+  },
+  {
+    "Location": "PA-Philadelphia",
+    "PercentWhite": 23.3,
+    "PercentVax": 95.4,
+    "PercentPoverty": 45.8,
+    "PercentUrban": 100
+  },
+  {
+    "Location": "PA-Rest of State",
+    "PercentWhite": 68.7,
+    "PercentVax": 91,
+    "PercentPoverty": 19.6,
+    "PercentUrban": 27.6
+  },
+  {
+    "Location": "Rhode Island",
+    "PercentWhite": 52.2,
+    "PercentVax": 95.3,
+    "PercentPoverty": 23.8,
+    "PercentUrban": 24.7
+  },
+  {
+    "Location": "South Carolina",
+    "PercentWhite": 49.9,
+    "PercentVax": 88,
+    "PercentPoverty": 32.7,
+    "PercentUrban": 46.3
+  },
+  {
+    "Location": "South Dakota",
+    "PercentWhite": 64.4,
+    "PercentVax": 89.9,
+    "PercentPoverty": 20.8,
+    "PercentUrban": 31
+  },
+  {
+    "Location": "Tennessee",
+    "PercentWhite": 60.4,
+    "PercentVax": 92.3,
+    "PercentPoverty": 34.1,
+    "PercentUrban": 50.2
+  },
+  {
+    "Location": "Texas",
+    "PercentWhite": 28.2,
+    "PercentVax": 90.3,
+    "PercentPoverty": 33.3,
+    "PercentUrban": 49.7
+  },
+  {
+    "Location": "TX-Bexar County",
+    "PercentWhite": 18.6,
+    "PercentVax": 96.1,
+    "PercentPoverty": 39.5,
+    "PercentUrban": 94.1
+  },
+  {
+    "Location": "TX-City of Houston",
+    "PercentWhite": 21,
+    "PercentVax": 87.8,
+    "PercentPoverty": 37.7,
+    "PercentUrban": 100
+  },
+  {
+    "Location": "TX-Dallas County",
+    "PercentWhite": 21.6,
+    "PercentVax": 93.2,
+    "PercentPoverty": 39.4,
+    "PercentUrban": 75.3
+  },
+  {
+    "Location": "TX-El Paso County",
+    "PercentWhite": 11,
+    "PercentVax": 89.3,
+    "PercentPoverty": 39.3,
+    "PercentUrban": 91.1
+  },
+  {
+    "Location": "TX-Travis County",
+    "PercentWhite": 38.4,
+    "PercentVax": 92.1,
+    "PercentPoverty": 28.6,
+    "PercentUrban": 84.4
+  },
+  {
+    "Location": "TX-Rest of State",
+    "PercentWhite": 32.2,
+    "PercentVax": 89.7,
+    "PercentPoverty": 30.7,
+    "PercentUrban": 24.9
+  },
+  {
+    "Location": "Utah",
+    "PercentWhite": 70.8,
+    "PercentVax": 88.7,
+    "PercentPoverty": 19.2,
+    "PercentUrban": 41
+  },
+  {
+    "Location": "Vermont",
+    "PercentWhite": 80.2,
+    "PercentVax": 93.7,
+    "PercentPoverty": 23.4,
+    "PercentUrban": 14.3
+  },
+  {
+    "Location": "Virginia",
+    "PercentWhite": 49,
+    "PercentVax": 97.6,
+    "PercentPoverty": 17.7,
+    "PercentUrban": 43.5
+  },
+  {
+    "Location": "Washington",
+    "PercentWhite": 54,
+    "PercentVax": 88.5,
+    "PercentPoverty": 17.3,
+    "PercentUrban": 52.9
+  },
+  {
+    "Location": "West Virginia",
+    "PercentWhite": 83.2,
+    "PercentVax": 89.9,
+    "PercentPoverty": 36.2,
+    "PercentUrban": 34.2
+  },
+  {
+    "Location": "Wisconsin",
+    "PercentWhite": 65.4,
+    "PercentVax": 89.9,
+    "PercentPoverty": 24.8,
+    "PercentUrban": 47.9
+  },
+  {
+    "Location": "Wyoming",
+    "PercentWhite": 76,
+    "PercentVax": 89.1,
+    "PercentPoverty": 17.5,
+    "PercentUrban": 39.2
+  },
+  {
+    "Location": "United States",
+    "PercentWhite": 47,
+    "PercentVax": 91.5,
+    "PercentPoverty": 28.7,
+    "PercentUrban": 45.8
+  }
+]
